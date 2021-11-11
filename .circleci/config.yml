@@ -8,8 +8,8 @@ jobs:
           password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
     steps:
       - checkout
-      docker build -t sample-python-app .
-      docker push $DOCKER_LOGIN:sample-python-app:v1
+      #docker build -t sample-python-app .
+      #docker push $DOCKER_LOGIN:sample-python-app:v1
 
   
 
